@@ -22,5 +22,5 @@ function handleServer(req, res) {
     res.end();
   }
 }
-
+httpServer.listen(8081);
 module.exports = httpServer;
